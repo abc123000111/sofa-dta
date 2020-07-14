@@ -1,0 +1,3 @@
+/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-standard/app/common/dal/src/main/java/com/alipay/sofa/common/dal/dao/NewsDO.java
+/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-standard/app/common/dal/src/main/java/com/alipay/sofa/common/dal/dai/NewsManageDao.java
+/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-standard/app/common/dal/src/main/java/com/alipay/sofa/common/dal/daiimpl/INewsManageDao.java

@@ -1,0 +1,12 @@
+2020-07-10 21:09:21,820 INFO  main                             - Found 1 HealthChecker implementation:sofaComponentHealthChecker
+2020-07-10 21:09:21,822 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,sofaComponentHealthIndicator,diskSpaceHealthIndicator
+2020-07-10 21:09:21,823 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2020-07-10 21:09:21,824 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2020-07-10 21:09:21,826 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2020-07-10 21:09:21,829 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2020-07-10 21:09:21,829 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2020-07-10 21:09:21,831 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2020-07-10 21:09:21,831 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2020-07-10 21:09:21,831 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2020-07-10 21:09:21,831 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2020-07-10 21:09:21,832 INFO  main                             - Readiness check result: success

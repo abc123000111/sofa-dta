@@ -1,0 +1,367 @@
+2020-07-10 16:38:39,671 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 16:38:42,038 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 16:38:42,039 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:42,041 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:42,042 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 16:38:42,042 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:42,042 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:42,042 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 16:38:42,042 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:42,042 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:42,972 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 16:38:42,994 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 16:38:42,994 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 16:38:43,012 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 16:38:43,018 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 16:38:43,359 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 16:38:43,408 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 16:38:43,663 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 16:38:43,664 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:43,664 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:43,664 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:43,664 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:38:43,664 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:38:43,676 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:38:43,680 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 16:38:43,689 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 16:38:43,742 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 16:38:43,742 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 16:38:43,743 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 331 ms, realTime = 333 ms]
+  ├─ com.alipay.sofa.service-provider [280 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [51 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 331 ms, realTime = 333 ms]
+  ├─ com.alipay.sofa.service-provider [280 ms]
+  │    `---org.springframework.context.annotation.ConfigurationClassPostProcessor (org.springframework.context.annotation.internalConfigurationAnnotationProcessor)	[175 ms]
+  └─ com.alipay.sofa.service-consumer [51 ms]
+
+2020-07-10 16:38:43,743 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2020-07-10 16:39:55,323 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 16:39:59,009 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 16:39:59,009 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:39:59,018 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:39:59,020 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 16:39:59,020 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:39:59,020 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:39:59,021 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 16:39:59,021 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:39:59,021 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:40:00,211 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 16:40:00,221 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 16:40:00,221 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 16:40:00,222 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 16:40:00,224 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 16:40:00,503 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 16:40:00,534 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 16:40:00,792 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 16:40:00,793 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:40:00,793 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:40:00,793 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:40:00,793 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 16:40:00,793 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 16:40:00,800 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 16:40:00,801 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:40:00,801 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:40:00,801 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:40:00,801 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 16:40:00,801 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 16:40:00,807 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 16:40:00,807 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:40:00,808 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:40:00,808 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:40:00,808 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 16:40:00,808 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 16:40:00,818 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 16:40:00,883 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 16:40:00,883 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 16:40:00,884 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 345 ms, realTime = 348 ms]
+  ├─ com.alipay.sofa.service-provider [281 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [64 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 345 ms, realTime = 348 ms]
+  ├─ com.alipay.sofa.service-provider [281 ms]
+  │    `---com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean (sampleJvmService)	[227 ms]
+  └─ com.alipay.sofa.service-consumer [64 ms]
+
+2020-07-10 16:40:00,884 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2020-07-10 20:47:17,787 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 20:53:57,223 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 20:57:46,500 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 20:57:49,973 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 20:57:49,974 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:49,977 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:49,978 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 20:57:49,978 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:49,978 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:49,978 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 20:57:49,978 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:49,978 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:50,553 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 20:57:50,559 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 20:57:50,559 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 20:57:50,560 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 20:57:50,561 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 20:57:50,824 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 20:57:50,868 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:57:51,046 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:57:51,068 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:57:51,070 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:57:51,079 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 20:57:51,138 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 20:57:51,138 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 20:57:51,140 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 267 ms, realTime = 269 ms]
+  ├─ com.alipay.sofa.service-provider [209 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [58 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 267 ms, realTime = 269 ms]
+  ├─ com.alipay.sofa.service-provider [209 ms]
+  │    `---com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean (sampleJvmService)	[145 ms]
+  └─ com.alipay.sofa.service-consumer [58 ms]
+
+2020-07-10 20:57:51,141 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2020-07-10 20:58:32,347 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 20:58:34,988 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 20:58:34,988 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:34,991 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:34,992 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 20:58:34,992 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:34,992 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:34,992 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 20:58:34,992 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:34,992 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:35,743 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 20:58:35,751 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 20:58:35,751 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 20:58:35,753 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 20:58:35,754 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 20:58:35,969 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 20:58:36,010 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 20:58:36,223 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:58:36,224 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:36,224 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:36,224 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:36,224 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:58:36,224 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:58:36,262 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:58:36,264 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:58:36,288 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 20:58:36,360 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 20:58:36,360 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 20:58:36,361 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 344 ms, realTime = 350 ms]
+  ├─ com.alipay.sofa.service-provider [272 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [72 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 344 ms, realTime = 350 ms]
+  ├─ com.alipay.sofa.service-provider [272 ms]
+  │    `---com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean (sampleJvmService)	[194 ms]
+  └─ com.alipay.sofa.service-consumer [72 ms]
+
+2020-07-10 20:58:36,361 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2020-07-10 20:59:37,673 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 20:59:40,042 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 20:59:40,042 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:40,045 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:40,046 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 20:59:40,046 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:40,046 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:40,047 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 20:59:40,047 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:40,047 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:40,645 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 20:59:40,653 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 20:59:40,653 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 20:59:40,656 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 20:59:40,658 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 20:59:40,847 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 20:59:41,009 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 20:59:41,047 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:59:41,048 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:41,048 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:41,048 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:41,048 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 20:59:41,048 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 20:59:41,053 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:59:41,054 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:41,054 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:41,054 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:41,054 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 20:59:41,054 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 20:59:41,056 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 20:59:41,066 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 20:59:41,111 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 20:59:41,112 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 20:59:41,112 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 101 ms, realTime = 102 ms]
+  ├─ com.alipay.sofa.service-provider [56 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [45 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 101 ms, realTime = 102 ms]
+  ├─ com.alipay.sofa.service-provider [56 ms]
+  └─ com.alipay.sofa.service-consumer [45 ms]
+
+2020-07-10 20:59:41,113 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2020-07-10 21:07:32,264 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-10 21:07:35,572 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:#414599042
+2020-07-10 21:07:35,572 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:35,575 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:35,575 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl#414599042
+2020-07-10 21:07:35,575 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:35,576 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:35,576 INFO  main                             - Registering component: reference:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl#414599042
+2020-07-10 21:07:35,576 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:35,576 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:36,282 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2020-07-10 21:07:36,287 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2020-07-10 21:07:36,288 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2020-07-10 21:07:36,289 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.alipay.sofa.service-consumer
+  └─ com.alipay.sofa.service-provider
+
+Modules that could install(2) >>>>>>>
+  ├─ com.alipay.sofa.service-provider
+  └─ com.alipay.sofa.service-consumer
+
+2020-07-10 21:07:36,290 INFO  main                             - Start install demos module: com.alipay.sofa.service-provider
+2020-07-10 21:07:36,478 INFO  main                             - Start install demos module: com.alipay.sofa.service-consumer
+2020-07-10 21:07:36,537 INFO  sofa-module-start-com.alipay.sofa.service-provider - Begin refresh Spring Application Context of module com.alipay.sofa.service-provider of application demo.
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService.
+2020-07-10 21:07:36,771 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl.
+2020-07-10 21:07:36,789 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:serviceClientImpl
+2020-07-10 21:07:36,791 INFO  sofa-module-start-com.alipay.sofa.service-provider - Registering component: service:com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 21:07:36,791 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:36,791 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<PreOut Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:36,792 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Begins - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:36,792 INFO  sofa-module-start-com.alipay.sofa.service-provider -  <<Out Binding [jvm] Ends - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl.
+2020-07-10 21:07:36,792 INFO  sofa-module-start-com.alipay.sofa.service-provider - Register Service - com.alipay.sofa.isle.sample.SampleJvmService:annotationImpl
+2020-07-10 21:07:36,802 INFO  sofa-module-start-com.alipay.sofa.service-consumer - Begin refresh Spring Application Context of module com.alipay.sofa.service-consumer of application demo.
+2020-07-10 21:07:36,852 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2020-07-10 21:07:36,853 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2020-07-10 21:07:36,854 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 311 ms, realTime = 315 ms]
+  ├─ com.alipay.sofa.service-provider [262 ms]
+  │    `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-provider/target/classes/META-INF/spring/service-provide.xml
+  └─ com.alipay.sofa.service-consumer [49 ms]
+       `---/home/sofa-dta/Documents/sofa-boot-guides-master/sofaboot-sample-with-isle/service-consumer/target/classes/META-INF/spring/service-consumer.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 311 ms, realTime = 315 ms]
+  ├─ com.alipay.sofa.service-provider [262 ms]
+  │    `---com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean (sampleJvmService)	[198 ms]
+  └─ com.alipay.sofa.service-consumer [49 ms]
+
+2020-07-10 21:07:36,854 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
