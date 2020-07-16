@@ -39,6 +39,11 @@
                 <artifactId>sofa-boot-run</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>edu.gmu.swe.phosphor</groupId>
+                <artifactId>Phosphor</artifactId>
+                <version>0.0.5-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

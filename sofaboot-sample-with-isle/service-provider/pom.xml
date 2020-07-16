@@ -21,5 +21,10 @@
             <groupId>com.alipay.sofa</groupId>
             <artifactId>runtime-sofa-boot-starter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>edu.gmu.swe.phosphor</groupId>
+            <artifactId>Phosphor</artifactId>
+            <version>0.0.5-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

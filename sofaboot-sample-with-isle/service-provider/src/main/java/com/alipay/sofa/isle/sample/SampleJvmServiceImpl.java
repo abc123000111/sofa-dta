@@ -15,6 +15,8 @@
  * limitations under the License.
  */
 package com.alipay.sofa.isle.sample;
+import edu.columbia.cs.psl.phosphor.runtime.MultiTainter;
+import edu.columbia.cs.psl.phosphor.runtime.Taint;
 
 /**
  * @author xuanbei 18/5/5
@@ -37,6 +39,9 @@ public class SampleJvmServiceImpl implements SampleJvmService {
     // sink method
     public void printMyInt(int i) {
         System.out.println("Someone gave me a: " + i);
+        Taint tz = MultiTainter.getTaint(i);
+        assert (tz != null);
+        System.out.println(tz.toString());
     }
 
     // no flow from source to sink
@@ -49,6 +54,7 @@ public class SampleJvmServiceImpl implements SampleJvmService {
     public void testExample2() {
         System.out.println("==> Expect exception");
         int tainted = gimmeTainted(2);
+        MultiTainter.taintedObject(tainted, Taint.withLabel("tainted"));
         printMyInt(tainted);
     }
 
