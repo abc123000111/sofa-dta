@@ -1,0 +1,3 @@
+2020-07-19 16:39:26,311 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2020-07-19 16:39:26,315 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2020-07-19 16:39:29,897 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService-11-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes

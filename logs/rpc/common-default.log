@@ -1,3 +1,15 @@
-2020-07-10 20:54:01,334 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.6.1_20190830144631, PID is:10992
-2020-07-10 20:54:01,355 INFO  main                             - Install Module: fault-tolerance
-2020-07-10 20:54:01,390 INFO  main                             - Install Module: sofaTracer-resteasy
+2020-07-28 10:00:32,387 INFO  main                             - service published.  interfaceId[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService]; protocol[rest]
+2020-07-28 10:00:32,597 INFO  main                             - service published.  interfaceId[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService]; protocol[bolt]
+2020-07-28 10:04:53,875 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.6.1_20190830144631, PID is:2295
+2020-07-28 10:04:53,895 INFO  main                             - Install Module: fault-tolerance
+2020-07-28 10:04:53,957 INFO  main                             - Install Module: sofaTracer-resteasy
+2020-07-28 10:04:59,092 INFO  main                             - The module lookout does not need to be loaded.
+2020-07-28 10:04:59,093 INFO  main                             - Install Module: sofaTracer
+2020-07-28 10:05:04,137 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl
+2020-07-28 10:05:04,220 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::rest with bean id personServiceImpl
+2020-07-28 10:05:10,780 INFO  main                             - Refer consumer config : bolt://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceBolt
+2020-07-28 10:05:10,913 INFO  main                             - Refer consumer config : rest://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceRest
+2020-07-28 10:05:15,098 INFO  main                             - service published.  interfaceId[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService]; protocol[rest]
+2020-07-28 10:05:15,305 INFO  main                             - service published.  interfaceId[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService]; protocol[bolt]
+2020-07-28 10:05:27,327 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2020-07-28 10:05:27,330 INFO  Thread-4                         - Unexport provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl

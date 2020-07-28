@@ -33,5 +33,8 @@ public class ApplicationRun {
 /**
  * Sync:
  * 1、Phosphor与sofa（springboot）的兼容性
+ * 精简代码、错误报告（重现bug）
  * 2、Developer guide
+ * 设计模式、高层架构、功能扩展，documentation，业务适配需求可以咨询，具体我们推动
+ * javaagent，ASM 视频会议
  */

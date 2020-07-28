@@ -1,0 +1,1 @@
+2020-07-28 10:01:07,680 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!

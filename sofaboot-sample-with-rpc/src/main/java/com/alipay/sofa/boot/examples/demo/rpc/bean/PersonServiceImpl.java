@@ -16,6 +16,9 @@
  */
 package com.alipay.sofa.boot.examples.demo.rpc.bean;
 
+import edu.columbia.cs.psl.phosphor.runtime.MultiTainter;
+import edu.columbia.cs.psl.phosphor.runtime.Taint;
+
 /**
  *
  * @author liangen
@@ -23,8 +26,37 @@ package com.alipay.sofa.boot.examples.demo.rpc.bean;
  */
 public class PersonServiceImpl implements PersonService {
 
+    // source method
+    public int gimmeTainted(int i) {
+        return i;
+    }
+
+    // sink method
+    public void printMyInt(int i) {
+        System.out.println("Someone gave me a: " + i);
+        Taint tz = MultiTainter.getTaint(i);
+        assert (tz != null);
+        System.out.println(tz.toString());
+    }
+
+    // no flow from source to sink
+    public void testExample1() {
+        int one = 1;
+        printMyInt(one);
+    }
+
+    // flow from source to sink
+    public void testExample2() {
+        System.out.println("==> Expect exception");
+        int tainted = gimmeTainted(2);
+        MultiTainter.taintedObject(tainted, Taint.withLabel("tainted"));
+        printMyInt(tainted);
+    }
+
     @Override
     public String sayName(String string) {
+        testExample1();
+        testExample2();
         return "hi " + string + "!";
     }
 }

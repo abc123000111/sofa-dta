@@ -1,0 +1,11 @@
+2020-07-19 16:39:08,699 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.6.1_20190830144631, PID is:5700
+2020-07-19 16:39:08,745 INFO  main                             - Install Module: fault-tolerance
+2020-07-19 16:39:08,793 INFO  main                             - Install Module: sofaTracer-resteasy
+2020-07-19 16:39:13,930 INFO  main                             - The module lookout does not need to be loaded.
+2020-07-19 16:39:13,931 INFO  main                             - Install Module: sofaTracer
+2020-07-19 16:39:18,977 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl
+2020-07-19 16:39:19,062 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::rest with bean id personServiceImpl
+2020-07-19 16:39:25,652 INFO  main                             - Refer consumer config : bolt://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceBolt
+2020-07-19 16:39:25,778 INFO  main                             - Refer consumer config : rest://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceRest
+2020-07-19 18:11:32,183 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2020-07-19 18:11:32,188 INFO  Thread-4                         - Unexport provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl

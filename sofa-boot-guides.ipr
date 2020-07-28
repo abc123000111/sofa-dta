@@ -14,18 +14,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sofaboot-sample-standard-biz-shared" />
-        <module name="sofaboot-sample-with-rpc" />
+        <module name="service-provider" />
+        <module name="sofa-boot-run" />
         <module name="service-consumer" />
         <module name="sofaboot-sample-with-isolation" />
-        <module name="sofa-boot-run" />
+        <module name="service-facade" />
         <module name="sofaboot-sample-standard-web" />
         <module name="sofaboot-sample" />
-        <module name="sofaboot-sample-standard-biz-service-impl" />
-        <module name="sofaboot-sample-standard-test" />
+        <module name="sofaboot-sample-with-rpc" />
         <module name="sofaboot-sample-standard-common-dal" />
-        <module name="service-facade" />
+        <module name="sofaboot-sample-standard-biz-service-impl" />
         <module name="sofaboot-sample-standard-common-service-facade" />
-        <module name="service-provider" />
+        <module name="sofaboot-sample-standard-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -935,13 +935,13 @@
     </library>
     <library name="Maven: edu.gmu.swe.phosphor:Phosphor:0.0.5-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-20200715.000203-73.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-20200715.000203-73-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-SNAPSHOT-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-20200715.000203-73-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/swe/phosphor/Phosphor/0.0.5-SNAPSHOT/Phosphor-0.0.5-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.micrometer:micrometer-core:1.1.0">

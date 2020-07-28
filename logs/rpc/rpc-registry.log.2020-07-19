@@ -1,0 +1,16 @@
+2020-07-19 16:39:25,721 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file failure cause by can't found file: /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 16:39:26,327 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@rest]发布开始 
+2020-07-19 16:39:26,328 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@rest] 
+2020-07-19 16:39:26,344 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 16:39:27,756 INFO  SOFA-LocalRegistry-Back-Load-8-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 16:39:29,851 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@rest]发布结束 
+2020-07-19 16:39:29,857 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@DEFAULT]发布开始 
+2020-07-19 16:39:29,858 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@DEFAULT] 
+2020-07-19 16:39:29,862 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 16:39:30,073 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@DEFAULT]发布结束 
+2020-07-19 16:39:31,772 INFO  SOFA-LocalRegistry-Back-Load-8-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 18:11:32,191 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 18:11:32,191 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@DEFAULT]	数量[1] 
+2020-07-19 18:11:32,194 INFO  Thread-4                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/abc123000111/localFileRegistry/localRegistry.reg
+2020-07-19 18:11:32,196 INFO  Thread-4                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService:1.0@DEFAULT]	数量[1] 
+2020-07-19 18:11:33,631 INFO  SOFA-LocalRegistry-Back-Load-8-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/abc123000111/localFileRegistry/localRegistry.reg

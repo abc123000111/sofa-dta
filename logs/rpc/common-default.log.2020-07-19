@@ -1,0 +1,17 @@
+2020-07-28 10:00:08,781 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.6.1_20190830144631, PID is:2223
+2020-07-28 10:00:08,828 INFO  main                             - Install Module: fault-tolerance
+2020-07-28 10:00:08,888 INFO  main                             - Install Module: sofaTracer-resteasy
+2020-07-28 10:00:14,034 INFO  main                             - The module lookout does not need to be loaded.
+2020-07-28 10:00:14,034 INFO  main                             - Install Module: sofaTracer
+2020-07-28 10:00:19,087 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl
+2020-07-28 10:00:19,174 INFO  main                             - Export provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::rest with bean id personServiceImpl
+2020-07-28 10:00:26,109 INFO  main                             - Refer consumer config : bolt://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceBolt
+2020-07-28 10:00:26,354 INFO  main                             - Refer consumer config : rest://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceRest
+2020-07-28 10:01:03,173 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2020-07-28 10:01:03,176 INFO  Thread-4                         - Unexport provider config : com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService::bolt with bean id personServiceImpl
+2020-07-28 10:01:07,676 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceBolt
+2020-07-28 10:01:07,680 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : rest://com.alipay.sofa.boot.examples.demo.rpc.bean.PersonService: with bean id personReferenceRest
+2020-07-28 10:01:07,684 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2020-07-28 10:01:07,685 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2020-07-28 10:01:07,685 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2020-07-28 10:01:07,686 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
